@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/FocusFun.Api/FocusFun.Api.csproj" />
+    <Project Path="src/FocusFun.Core/FocusFun.Core.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/FocusFun.Core.Tests/FocusFun.Core.Tests.csproj" />
+  </Folder>
+  <Folder Name="/tools/">
+    <Project Path="tools/FocusFun.Preview/FocusFun.Preview.csproj" />
+  </Folder>
+</Solution>

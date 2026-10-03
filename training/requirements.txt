@@ -1,0 +1,12 @@
+# Install PyTorch with CUDA first (see README), then: pip install -r requirements.txt
+transformers>=4.46,<5
+peft>=0.13
+accelerate>=1.0
+datasets>=3.0
+bitsandbytes>=0.45; platform_system != "Darwin"
+safetensors>=0.4
+sentencepiece>=0.2
+protobuf>=5
+boto3>=1.35
+# GGUF conversion for Ollama uses llama.cpp's converter (see README); this is its Python dependency.
+gguf>=0.10

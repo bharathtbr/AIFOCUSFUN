@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="HarfBuzzSharp" Version="14.2.1.201" />
+    <PackageReference Include="HarfBuzzSharp.NativeAssets.Linux" Version="14.2.1.201" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- Noto Sans Telugu / Devanagari (SIL Open Font License, see Fonts/OFL.txt), drawn as outlines on tracing sheets. -->
+    <EmbeddedResource Include="Fonts\*.ttf" LogicalName="FocusFun.Fonts.%(Filename)%(Extension)" />
+  </ItemGroup>
+
+</Project>

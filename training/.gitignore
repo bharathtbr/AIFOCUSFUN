@@ -1,0 +1,9 @@
+.venv/
+data/
+data-*/
+exports/
+out/
+out-*/
+models/
+__pycache__/
+*.gguf
